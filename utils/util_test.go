@@ -13,7 +13,7 @@ func TestReadCSV(t *testing.T) {
 }
 
 func TestWordReplace(t *testing.T) {
-	WordReplace("学生毕业论文", "cc", "demo.docx", "out.docx")
+	WordReplace("学生毕业论文", "替换后", "demo.docx", "out.docx")
 }
 
 func TestExcelReplace(t *testing.T) {

@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc1cbaa9-8798-4c9d-ba3a-86e9b762501c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/demo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/excel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/word.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/docx.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/docx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/out.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/王德丰开题报告表.docx" beforeDir="false" afterPath="$PROJECT_DIR$/utils/demo.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
