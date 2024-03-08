@@ -13,9 +13,18 @@ func TestReadCSV(t *testing.T) {
 }
 
 func TestWordReplace(t *testing.T) {
-	WordReplace("学生毕业论文", "替换后", "demo.docx", "out.docx")
+	ass := assert.New(t)
+	err := WordReplace("测试数据1", "替换后", "demo.docx", "out.docx")
+	ass.NoError(err)
 }
 
 func TestExcelReplace(t *testing.T) {
-	ExcelReplace("山西省", "替换后", "demo.xlsx", "out.xlsx")
+	ass := assert.New(t)
+	err := ExcelReplace("山西省", "替换后", "demo.xlsx", "out.xlsx")
+	ass.NoError(err)
+
+}
+
+func TestRun(t *testing.T) {
+	Run()
 }

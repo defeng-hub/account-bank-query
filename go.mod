@@ -3,8 +3,10 @@ module account-bank-query
 go 1.21.5
 
 require (
+	github.com/carmel/gooxml v0.0.0-20220216072414-40ff56130850
 	github.com/gin-gonic/gin v1.9.1
 	github.com/stretchr/testify v1.8.4
+	github.com/xuri/excelize/v2 v2.8.1
 	golang.org/x/text v0.14.0
 )
 
@@ -33,13 +35,11 @@ require (
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
 	github.com/xuri/efp v0.0.0-20231025114914-d1ff6096ae53 // indirect
-	github.com/xuri/excelize/v2 v2.8.1 // indirect
 	github.com/xuri/nfp v0.0.0-20230919160717-d98342af3f05 // indirect
 	golang.org/x/arch v0.3.0 // indirect
 	golang.org/x/crypto v0.19.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
-	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect

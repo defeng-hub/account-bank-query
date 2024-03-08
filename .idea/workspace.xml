@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc1cbaa9-8798-4c9d-ba3a-86e9b762501c" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/utils/out.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/demo.docx" beforeDir="false" afterPath="$PROJECT_DIR$/utils/demo.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/word.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/word.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
       <recent name="$PROJECT_DIR$/doc" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 测试.account-bank-query/utils 中的 TestReplaceDocx">
+  <component name="RunManager" selected="Go 测试.account-bank-query/utils 中的 TestRun">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="account-bank-query" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,15 +104,29 @@
       <pattern value="^\QTestRun\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="account-bank-query/utils 中的 TestWordReplace" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="account-bank-query" />
+      <working_directory value="$PROJECT_DIR$/utils" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="account-bank-query/utils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestWordReplace\E$" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go 构建.go build main.go" />
       <item itemvalue="Go 测试.account-bank-query/utils 中的 TestReplaceDocx" />
+      <item itemvalue="Go 测试.account-bank-query/utils 中的 TestWordReplace" />
       <item itemvalue="Go 测试.account-bank-query/utils 中的 TestRun" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 测试.account-bank-query/utils 中的 TestReplaceDocx" />
         <item itemvalue="Go 测试.account-bank-query/utils 中的 TestRun" />
+        <item itemvalue="Go 测试.account-bank-query/utils 中的 TestWordReplace" />
+        <item itemvalue="Go 测试.account-bank-query/utils 中的 TestReplaceDocx" />
         <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
@@ -127,6 +145,31 @@
           <url>file://$PROJECT_DIR$/utils/util_test.go</url>
           <line>9</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/word.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/word.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/word.go</url>
+          <line>57</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/word.go</url>
+          <line>43</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/utils/word.go</url>
+          <line>68</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
