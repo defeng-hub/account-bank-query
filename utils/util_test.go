@@ -2,7 +2,6 @@ package utils
 
 import (
 	"github.com/stretchr/testify/assert"
-	"log"
 	"testing"
 )
 
@@ -13,22 +12,10 @@ func TestReadCSV(t *testing.T) {
 	t.Log(list)
 }
 
-func TestRun(t *testing.T) {
-	// Load a docx file
-	r, err := ReadDocxFile("王德丰开题报告表.docx")
-	if err != nil {
-		log.Fatalf("error reading docx file: %s", err)
-	}
-	defer r.Close()
+func TestWordReplace(t *testing.T) {
+	WordReplace("学生毕业论文", "cc", "demo.docx", "out.docx")
+}
 
-	doc := r.Editable()
-
-	// Replace text
-	doc.Replace("已研读的有关文献资料", "newText", -1)
-
-	// Save the modified document
-	err = doc.WriteToFile("modified.docx")
-	if err != nil {
-		log.Fatalf("error writing docx file: %s", err)
-	}
+func TestExcelReplace(t *testing.T) {
+	ExcelReplace("山西省", "替换后", "demo.xlsx", "out.xlsx")
 }
